@@ -4,7 +4,7 @@
 
 
 struct uint2022_t {
-    // implement
+    uint32_t arr[64];
 };
 
 static_assert(sizeof(uint2022_t) <= 300, "Size of uint2022_t must be no higher than 300 bytes");
@@ -19,7 +19,7 @@ uint2022_t operator-(const uint2022_t& lhs, const uint2022_t& rhs);
 
 uint2022_t operator*(const uint2022_t& lhs, const uint2022_t& rhs);
 
-uint2022_t operator/(const uint2022_t& lhs, const uint2022_t& rhs);
+//uint2022_t operator/(const uint2022_t& lhs, const uint2022_t& rhs);
 
 bool operator==(const uint2022_t& lhs, const uint2022_t& rhs);
 
