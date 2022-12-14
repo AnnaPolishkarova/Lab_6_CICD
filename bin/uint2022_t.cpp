@@ -2,7 +2,7 @@
 //
 
 #include <iostream>
-#include "lib\number.h"
+#include "lib/number.h"
 
 int main()
 {
