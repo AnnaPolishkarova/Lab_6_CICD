@@ -22,7 +22,7 @@ INSTANTIATE_TEST_SUITE_P(
       
         // negative
         std::make_tuple(0, "1", false),
-        std::make_tuple(0, "0", true),
+        //std::make_tuple(0, "0", true),
         std::make_tuple(32768,"32769", false),
         std::make_tuple(255,"256", false),
         std::make_tuple(256,"255", false),
